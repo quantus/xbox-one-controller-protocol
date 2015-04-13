@@ -299,5 +299,7 @@ This is received if you send this
     };
     
 
+License
+=======
 
-    
+You are free to use information and code in this document in any way you want, as long as you don't hold me responsible for anything.
