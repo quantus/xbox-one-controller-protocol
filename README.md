@@ -33,6 +33,11 @@ Starts controller's light but controller will not start sending any input events
 
 0x05: Start controller (with input)
 -----------------------------------
+> HEX: 0x05 0x20 0x00 0x01 0x00
+
+As stated on [Issue #3](https://github.com/quantus/xbox-one-controller-protocol/issues/3) the newer versions of Xbox One controllers require this longer start command.
+
+**Old info**:
 > BIN: DDD0 0101 DD1D D000
 
 > HEX: 0x05 0x20
