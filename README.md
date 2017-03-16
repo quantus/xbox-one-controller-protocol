@@ -157,7 +157,7 @@ Different packets that controller sends back
 
 0x20: Button data
 -----------------
-Sent everytime controllor input values change.
+Sent everytime controller input values change.
 Following code is from taken from [Chrome web browser](https://code.google.com/p/chromium/codesearch#chromium/src/content/browser/gamepad/xbox_data_fetcher_mac.cc).
 
     struct XboxOneButtonData {
