@@ -68,6 +68,7 @@ Buffer[3] defines what the rest of this packets is:
 	buffer[9] = 0x20; // R force
 	buffer[10] = 0x80; // Length of pulse
 	buffer[11] = 0x00; // Period between pulses
+	buffer[12] = 0xEB; // Number of pulses
 
 **Single rumble effect**
 
